@@ -2,7 +2,7 @@ import math
 import random
 
 # number of checks
-noc = 10
+noc = 100
 
 
 # l - number of bits
@@ -32,7 +32,7 @@ def GenPrime(l):
 
 def IsPrime(n):
     for _ in range(noc):
-        if not SolovayStrassen(n):
+        if not MillerRabin(n):
             return False
     return True
 
