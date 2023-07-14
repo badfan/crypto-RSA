@@ -1,10 +1,15 @@
-# crypto_RSA
-Реализация криптографического алгоритма RSA,а именно:
-1. Метода генерации ключей
-2. Метода зашифрования
-3. Метода расшифрования
+# crypto-RSA
 
-Также реализованы:
-1. Расширенный алгоритм Евклида
-2. Алгоритм Монтгомери возведения в степень
-3. Тесты Ферма, Рабина-Миллера, Соловея-Штрассена проверки числа на простоту
+Implementation of the RSA cryptographic algorithm
+
+### In particular:
+
+- Key generation method
+- Encryption method
+- Decryption method
+
+### The following are also implemented:
+
+- Extended Euclid algorithm
+- Montgomery's exponentiation algorithm
+- Fermat, Rabin-Miller, Solovey-Strassen tests of testing the number for simplicity
